@@ -1,19 +1,10 @@
 :root {
   --comandname: #212121;
   --comandtext: #757575;
-  --featuresmain: #212121;
-  --featurestext: #757575;
   --Whatdo: white;
   --whatdobg: #2f303a;
-  --wathbt: white;
-  --wathbtbg: #2196f3;
   --comandbg: #f5f4fa;
-  --hedermail: #757575;
   --hederphon: #2196f3;
-  --foterstrit: #ffff;
   --fotermail: rgba(255, 255, 255, 0.6);
-  --fotrphon: rgba(255, 255, 255, 0.6);
-  --foterbg: #2f303a;
-  --swmain: #212121;
-  --swtext: #757575;
 }
+ 
