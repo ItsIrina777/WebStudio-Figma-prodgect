@@ -17,7 +17,7 @@
   letter-spacing: 0.78px;
 }
 
-.menu {}
+/* .menu {} */
 
 .menu-item {
   color: #212121;
@@ -39,11 +39,11 @@
   letter-spacing: 0.28px;
 }
 
-.contacts-list {}
+/* .contacts-list {} 
 
 .contacts-list-item {}
 
-.contacts-list-link {}
+.contacts-list-link {} */
 
 .hero {
   background: #2F303A;
@@ -59,6 +59,7 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+  padding: 200, 452, 280, 452
 }
 
 .hero-button {
@@ -68,9 +69,10 @@
   border-radius: 4px;
   background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  height: 100;
 }
 
-.features {}
+/* .features {} */
 
 .section-title {
   color: #212121;
@@ -83,9 +85,9 @@
   text-transform: uppercase;
 }
 
-.features-list {}
+/* .features-list {}
 
-.features-item {}
+.features-item {} */
 
 .featuresl-text {
   color: #757575;
@@ -94,11 +96,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
 }
 
-.section {}
+/*.section {}
 
 .work-list {}
 
@@ -106,7 +107,7 @@
 
 .work-image {}
 
-.team {}
+.team {} */
 
 .section-team-title {
   color: #212121;
@@ -119,11 +120,11 @@
   letter-spacing: 1.08px;
 }
 
-.team-list {}
+/* .team-list {}
 
 .team-item {}
 
-.team-image {}
+.team-image {} */
 
 .team-title {
   color: #212121;
@@ -161,11 +162,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
 }
 
-.footer-contacts-list {}
+/* .footer-contacts-list {} */
 
 .footer-contacts-list-item {
   color: rgba(255, 255, 255, 0.60);
@@ -174,7 +174,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
 }
 
@@ -185,13 +184,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
   letter-spacing: 0.42px;
 }
 
-.section-buttons {}
+/* .section-buttons {} 
 
-.button-list {}
+.button-list {} */
 
 .button-item {
   color: #FFF;
@@ -201,7 +199,6 @@
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
-  /* 162.5% */
   letter-spacing: 0.48px;
 }
 
@@ -213,17 +210,16 @@
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
-  /* 162.5% */
   letter-spacing: 0.48px;
 }
 
-.brands {}
+/* .brands {} */
 
 .brands-main-title {
   color: #ffffff;
 }
 
-.brands-list {}
+/*.brands-list {} */ 
 
 .brands-item {
   color: #757575;
@@ -232,11 +228,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  /* 187.5% */
   letter-spacing: 0.48px;
 }
 
-.brands-image {}
+/* .brands-image {} */
 
 .brands-title {
   color: #212121;
@@ -245,7 +240,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
-  /* 200% */
   letter-spacing: 1.08px;
 }
 
