@@ -6,6 +6,10 @@
   --comandbg: #f5f4fa;
   --hederphon: #2196f3;
   --fotermail: rgba(255, 255, 255, 0.6);
+  --logo: #000;
+}
+body {
+  font-family: Roboto;
 }
  .logo {
   color: #2196F3;
@@ -16,10 +20,12 @@
   line-height: normal;
   letter-spacing: 0.78px;
 }
-
+.logo-studio {
+  color: var(--logo);
+}
 /* .menu {} */
 
-.menu-item {
+.menu-link {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;
@@ -27,10 +33,29 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
+  
 }
 
-.menu-link {
+.menu-link:hover {
   color: #2196F3;
+}
+
+/* .contacts-list {} 
+
+.contacts-list-item {}*/
+
+.contacts-list-link {
+  color: var(--comandname);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+} 
+
+.contacts-list-link:hover {
+  color: var(--hederphon);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -38,12 +63,6 @@
   line-height: normal;
   letter-spacing: 0.28px;
 }
-
-/* .contacts-list {} 
-
-.contacts-list-item {}
-
-.contacts-list-link {} */
 
 .hero {
   background: #2F303A;
@@ -187,12 +206,32 @@
   letter-spacing: 0.42px;
 }
 
+.footer-logo {
+  color: var(--hederphon);
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-logo-studio {
+  color: #FFF;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
 /* .section-buttons {} 
 
 .button-list {} */
 
 .button-item {
-  color: #FFF;
+  color: var(--comandbg);
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
