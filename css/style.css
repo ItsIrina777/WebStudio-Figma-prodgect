@@ -8,10 +8,12 @@
   --fotermail: rgba(255, 255, 255, 0.6);
   --logo: #000;
 }
+
 body {
   font-family: Roboto;
 }
- .logo {
+
+.logo {
   color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
@@ -20,9 +22,11 @@ body {
   line-height: normal;
   letter-spacing: 0.78px;
 }
+
 .logo-studio {
   color: var(--logo);
 }
+
 /* .menu {} */
 
 .menu-link {
@@ -33,7 +37,7 @@ body {
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
-  
+
 }
 
 .menu-link:hover {
@@ -45,14 +49,14 @@ body {
 .contacts-list-item {}*/
 
 .contacts-list-link {
-  color: var(--comandname);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-} 
+  color: var(--comandtext);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
 
 .contacts-list-link:hover {
   color: var(--hederphon);
@@ -72,13 +76,15 @@ letter-spacing: 0.28px;
 }
 
 .hero-title {
-  display: flex;
-  width: 696px;
-  height: 120px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  padding: 200, 452, 280, 452
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 
 .hero-button {
@@ -89,19 +95,27 @@ letter-spacing: 0.28px;
   background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   height: 100;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
 }
 
 /* .features {} */
 
 .section-title {
   color: #212121;
+  text-align: center;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.42px;
-  text-transform: uppercase;
+  letter-spacing: 1.08px;
 }
 
 /* .features-list {}
@@ -149,11 +163,11 @@ letter-spacing: 0.28px;
   color: #212121;
   text-align: center;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 36px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.48px;
+  letter-spacing: 1.08px;
 }
 
 .team-text {
@@ -218,12 +232,12 @@ letter-spacing: 0.28px;
 
 .footer-logo-studio {
   color: #FFF;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 
 /* .section-buttons {} 
@@ -258,7 +272,7 @@ letter-spacing: 0.78px;
   color: #ffffff;
 }
 
-/*.brands-list {} */ 
+/*.brands-list {} */
 
 .brands-item {
   color: #757575;
@@ -291,4 +305,3 @@ letter-spacing: 0.78px;
   line-height: 30px;
   letter-spacing: 0.48px;
 }
-
