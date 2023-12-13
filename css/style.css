@@ -1,12 +1,13 @@
 :root {
   --comandname: #212121;
   --comandtext: #757575;
-  --Whatdo: white;
+  --Whatdo: #fff;
   --whatdobg: #2f303a;
   --comandbg: #f5f4fa;
   --hederphon: #2196f3;
   --fotermail: rgba(255, 255, 255, 0.6);
   --logo: #000;
+  --button: #ffd0d0;
 }
 
 body {
@@ -14,12 +15,11 @@ body {
 }
 
 .logo {
-  color: #2196F3;
+  color: var(--hederphon);
   font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 1.38;
   letter-spacing: 0.78px;
 }
 
@@ -30,18 +30,16 @@ body {
 /* .menu {} */
 
 .menu-link {
-  color: #212121;
-  font-family: Roboto;
+  color: var(--logo);
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.14;
   letter-spacing: 0.28px;
 
 }
 
 .menu-link:hover {
-  color: #2196F3;
+  color: var(--hederphon);
 }
 
 /* .contacts-list {} 
@@ -50,39 +48,29 @@ body {
 
 .contacts-list-link {
   color: var(--comandtext);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 1.14;
   letter-spacing: 0.28px;
 }
 
 .contacts-list-link:hover {
   color: var(--hederphon);
-  font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.28px;
 }
 
 .hero {
-  background: #2F303A;
+  background: var(--whatdobg);
   width: 1600px;
   height: 600px;
   flex-shrink: 0;
 }
 
 .hero-title {
-  color: #FFF;
+  color: var(--Whatdo);
   text-align: center;
-  font-family: Roboto;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -92,14 +80,12 @@ body {
   height: 50px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: #2196F3;
+  background: var(--hederphon);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   height: 100;
-  color: #FFF;
+  color: var(--Whatdo);
   text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 1.87;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
@@ -108,11 +94,9 @@ body {
 /* .features {} */
 
 .section-title {
-  color: #212121;
+  color: var(--comandname);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
@@ -123,10 +107,8 @@ body {
 .features-item {} */
 
 .featuresl-text {
-  color: #757575;
-  font-family: Roboto;
+  color: var(--comandtext);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -143,11 +125,9 @@ body {
 .team {} */
 
 .section-team-title {
-  color: #212121;
+  color: var(--comandname);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
@@ -160,22 +140,18 @@ body {
 .team-image {} */
 
 .team-title {
-  color: #212121;
+  color: var(--comandname);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
 }
 
 .team-text {
-  color: #757575;
+  color: var(--comandtext);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.48px;
@@ -185,14 +161,12 @@ body {
   width: 1600px;
   height: 252px;
   flex-shrink: 0;
-  background: #2F303A;
+  background: var(--whatdobg);
 }
 
 .footer-address {
-  color: #FFF;
-  font-family: Roboto;
+  color: var(--Whatdo);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -201,20 +175,16 @@ body {
 /* .footer-contacts-list {} */
 
 .footer-contacts-list-item {
-  color: rgba(255, 255, 255, 0.60);
-  font-family: Roboto;
+  color: var(--fotermail);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
 }
 
 .footer-contacts-list-link {
-  color: rgba(255, 255, 255, 0.60);
-  font-family: Roboto;
+  color: var(--fotermail);
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -224,17 +194,15 @@ body {
   color: var(--hederphon);
   font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
 }
 
 .footer-logo-studio {
-  color: #FFF;
+  color: var(--Whatdo);
   font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
@@ -247,38 +215,41 @@ body {
 .button-item {
   color: var(--comandbg);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
 }
 
 .button-link {
-  color: #ffd0d0;
+  color: var(--comandname);
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: #F5F4FA;
+  width: 112px;
+  height: 38px;
+}
+
+.button-link:hover {
+  color: var(--Whatdo);
+  background: var(--hederphon);
 }
 
 /* .brands {} */
 
 .brands-main-title {
-  color: #ffffff;
+  color: var(--Whatdo);
 }
 
 /*.brands-list {} */
 
 .brands-item {
-  color: #757575;
-  font-family: Roboto;
+  color: var(--comandtext);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
@@ -287,20 +258,16 @@ body {
 /* .brands-image {} */
 
 .brands-title {
-  color: #212121;
-  font-family: Roboto;
+  color: var(--comandname);
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
 }
 
 .brands-text {
-  color: #757575;
-  font-family: Roboto;
+  color: var(--comandtext);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
