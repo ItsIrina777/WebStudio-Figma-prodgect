@@ -358,12 +358,11 @@ border-radius: 0 0 4px 4px;
   letter-spacing: 0.48px;
   border: 1px solid #EEE;
 background: #FFF;
+flex-basis: calc((100% - (30px * 2)) / 3 );
+max-width: 370px;
 }
 
 .brands-image {
-  width: 370px;
-  height: 294px;
-  flex-shrink: 0;
   margin-bottom: 20px;
 }
 
