@@ -86,8 +86,12 @@ header {
 }
 
 .hero {
-  background: var(--whatdobg);
-  padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url(../images/heroimg.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
 }
 
@@ -130,22 +134,22 @@ header {
 }
 
 .features-item:nth-child(1)::before {
-  content: url("../images /group1.webp");
+  content: url("../images/group1.webp");
   display: block;
 }
 
 .features-item:nth-child(2)::before {
-  content: url("../images /group2.webp");
+  content: url("../images/group2.webp");
   display: block;
 }
 
 .features-item:nth-child(3)::before {
-  content: url("../images /group3.webp");
+  content: url("../images/group3.webp");
   display: block;
 }
 
 .features-item:nth-child(4)::before {
-  content: url("../images /group4.webp");
+  content: url("../images/group4.webp");
   display: block;
 }
 
