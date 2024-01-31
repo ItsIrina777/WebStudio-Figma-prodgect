@@ -129,6 +129,26 @@ header {
   padding: 94px 0 94px 0;
 }
 
+.features-item:nth-child(1)::before {
+  content: url("../images /group1.webp");
+  display: block;
+}
+
+.features-item:nth-child(2)::before {
+  content: url("../images /group2.webp");
+  display: block;
+}
+
+.features-item:nth-child(3)::before {
+  content: url("../images /group3.webp");
+  display: block;
+}
+
+.features-item:nth-child(4)::before {
+  content: url("../images /group4.webp");
+  display: block;
+}
+
 .section-title {
   color: var(--comandname);
   text-align: center;
