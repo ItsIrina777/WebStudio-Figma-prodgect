@@ -88,11 +88,12 @@ header {
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url(../images/heroimg.webp);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center, center;
   width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -108,25 +109,24 @@ header {
   flex-shrink: 0;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .hero-button {
-  width: 216px;
-  height: 50px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  background: var(--hederphon);
-  height: 100;
   color: var(--Whatdo);
-  text-align: center;
-  font-size: 1.87;
-  font-weight: 700;
-  line-height: 16.8;
-  letter-spacing: 0.96px;
+  background-color: var(--hederphon);
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  margin-top: 30px;
+  width: 216px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.96px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .features {
@@ -136,21 +136,25 @@ header {
 .features-item:nth-child(1)::before {
   content: url("../images/group1.webp");
   display: block;
+  margin-bottom: 30px;
 }
 
 .features-item:nth-child(2)::before {
   content: url("../images/group2.webp");
   display: block;
+  margin-bottom: 30px;
 }
 
 .features-item:nth-child(3)::before {
   content: url("../images/group3.webp");
   display: block;
+  margin-bottom: 30px;
 }
 
 .features-item:nth-child(4)::before {
   content: url("../images/group4.webp");
   display: block;
+  margin-bottom: 30px;
 }
 
 .section-title {
@@ -252,6 +256,7 @@ border-radius: 0 0 4px 4px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
 
 .team-text {
@@ -357,7 +362,6 @@ border-radius: 0 0 4px 4px;
 .button-link:hover {
   color: var(--Whatdo);
   background: var(--hederphon);
-  
 }
 
 .brands {
