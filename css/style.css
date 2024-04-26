@@ -8,6 +8,7 @@
   --fotermail: rgba(255, 255, 255, 0.6);
   --logo: #000;
   --button: #ffd0d0;
+  --icon: #AFB1B8;
 }
 
 .container {
@@ -18,8 +19,8 @@
 }
 
 body {
-  font-family: Roboto; 
-} 
+  font-family: Roboto;
+}
 
 header {
   padding-top: 24px;
@@ -50,7 +51,7 @@ header {
 .menu {
   display: flex;
   gap: 50px;
-} 
+}
 
 .menu-link {
   color: var(--logo);
@@ -69,7 +70,7 @@ header {
   display: flex;
   gap: 50px;
   margin-left: auto;
-} 
+}
 
 /*.contacts-list-item {}*/
 
@@ -79,17 +80,37 @@ header {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.28px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .contacts-list-link:hover {
   color: var(--hederphon);
 }
 
+.contacts-list-item:first-child .contacts-icon {
+  width: 16px;
+  height: 12px;
+  flex-shrink: 0;
+  fill: var(--comandtext);
+}
+
+.contacts-list-link:hover .contacts-icon {
+  fill: var(--hederphon);
+}
+
+.contacts-list-item:last-child .contacts-icon {
+  width: 10px;
+  height: 16px;
+  flex-shrink: 0;
+  fill: var(--comandtext);
+}
+
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url(../images/heroimg.webp);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.webp);
   background-repeat: no-repeat;
   background-position: center, center;
-  width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
@@ -133,8 +154,8 @@ header {
   padding: 94px 0 94px 0;
 }
 
-.features-item:nth-child(1)::before {
-  content: url("../images/group1.webp");
+/*.features-item:nth-child(1)::before {
+ content: url("../images/symbol-defs.svg#icon-antenna");
   display: block;
   margin-bottom: 30px;
 }
@@ -155,6 +176,18 @@ header {
   content: url("../images/group4.webp");
   display: block;
   margin-bottom: 30px;
+} */
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
+
+.features-icon:nth-child(1)::before {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 215px;
 }
 
 .section-title {
@@ -210,7 +243,7 @@ header {
 .team {
   padding: 94px 0 94px 0;
   background: #f5f4fa;
-} 
+}
 
 .section-team-title {
   color: var(--comandname);
@@ -221,16 +254,16 @@ header {
   letter-spacing: 1.08px;
 }
 
- .team-list {
+.team-list {
   display: flex;
   align-items: center;
   gap: 30px;
 
- }
+}
 
 .team-item {
-background-color: #fff;
-border-radius: 0 0 4px 4px;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-subtitle {
@@ -247,7 +280,7 @@ border-radius: 0 0 4px 4px;
   width: 270px;
   height: 260px;
   margin-bottom: 30px;
-} 
+}
 
 .team-title {
   color: var(--comandname);
@@ -269,9 +302,49 @@ border-radius: 0 0 4px 4px;
   margin-bottom: 30px;
 }
 
+.team-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--icon);
+
+}
+
+.team-icon:hover {
+  fill: var(--Whatdo);
+}
+
+.customers-icon {
+  width: 106px;
+  height: 60px;
+  flex-shrink: 0;
+  fill: var(--icon);
+}
+
+.customers-icon:hover {
+  fill: var(--hederphon);
+}
+
 .footer {
   background: var(--whatdobg);
   padding: 60px 0 60px 0;
+}
+
+.footer-text {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: var(--Whatdo);
 }
 
 .footer-address {
@@ -322,9 +395,9 @@ border-radius: 0 0 4px 4px;
 }
 
 .button-section {
-    padding-top: 94px;
-    padding-bottom: 50px;
-} 
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 
 .button-list {
   display: flex;
@@ -366,7 +439,7 @@ border-radius: 0 0 4px 4px;
 
 .brands {
   padding-bottom: 94px;
-} 
+}
 
 .brands-main-title {
   color: var(--Whatdo);
@@ -375,7 +448,7 @@ border-radius: 0 0 4px 4px;
 .brands-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px; 
+  gap: 30px;
 }
 
 .brands-item {
@@ -385,15 +458,15 @@ border-radius: 0 0 4px 4px;
   line-height: 1.75;
   letter-spacing: 0.48px;
   border: 1px solid #EEE;
-background: #FFF;
-flex-basis: calc((100% - (30px * 2)) / 3 );
-max-width: 370px;
+  background: #FFF;
+  flex-basis: calc((100% - (30px * 2)) / 3);
+  max-width: 370px;
 }
 
 .brands-item:hover {
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
- 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
- 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .brands-image {
@@ -419,4 +492,3 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
   margin-left: 24px;
   margin-bottom: 20px;
 }
-

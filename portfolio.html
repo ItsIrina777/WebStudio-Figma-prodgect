@@ -10,8 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" 
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,124 +20,157 @@
 <body>
   <header class="header">
     <!--сторінки-->
-    <div class="container header-container"> 
-    <a class="logo" href="/">Web<span class="logo-studio">Studio</span></a>
-    <ul class="menu">
-      <li class="menu-item">
-        <a class="menu-link" href="./index.html">Студія</a>
-      </li>
-      <li class="menu-item">
-        <a class="menu-link" href="./portfolio.html">Портфоліо</a>
-      </li>
-      <li class="menu-item">
-        <a class="menu-link" href="">Контакти</a>
-      </li>
-    </ul>
-    <!--контактна інформація-->
-    <ul class="contacts-list">
-      <li class="contacts-list-item">
-        <a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-      <li class="contacts-list-item">
-        <a class="contacts-list-link" href="tel:+380961111111">+38 096 111 11 11</a>
-      </li>
-    </ul>
+    <div class="container header-container">
+      <a class="logo" href="/">Web<span class="logo-studio">Studio</span></a>
+      <ul class="menu">
+        <li class="menu-item">
+          <a class="menu-link" href="./index.html">Студія</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="">Контакти</a>
+        </li>
+      </ul>
+      <!--контактна інформація-->
+      <ul class="contacts-list">
+        <li class="contacts-list-item">
+          <a class="contacts-list-link" href="mailto:info@devstudio.com">
+            <svg class="contacts-icon">
+              <use href="./images/symbol-defs.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com</a>
+        </li>
+        <li class="contacts-list-item">
+          <a class="contacts-list-link" href="tel:+380961111111">
+            <svg class="contacts-icon">
+              <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11</a>
+        </li>
+      </ul>
     </div>
   </header>
   <main>
     <!--кнопочки-->
     <section class="button-section">
       <div class="container">
-    <ul class="button-list">
-      <li class="button-item">
-        <a class="button-link" href="">Усі</a>
-      </li>
-      <li class="button-item">
-        <a class="button-link" href="">Веб-сайти</a>
-      </li>
-      <li class="button-item">
-        <a class="button-link" href="">Додатки</a>
-      </li>
-      <li class="button-item">
-        <a class="button-link" href="">Дизайн</a>
-      </li>
-      <li class="button-item">
-        <a class="button-link" href="">Маркетинг</a>
-      </li>
-    </ul>
-  </div>
-  </section>
+        <ul class="button-list">
+          <li class="button-item">
+            <a class="button-link" href="">Усі</a>
+          </li>
+          <li class="button-item">
+            <a class="button-link" href="">Веб-сайти</a>
+          </li>
+          <li class="button-item">
+            <a class="button-link" href="">Додатки</a>
+          </li>
+          <li class="button-item">
+            <a class="button-link" href="">Дизайн</a>
+          </li>
+          <li class="button-item">
+            <a class="button-link" href="">Маркетинг</a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <!--веб-сайти/додатки/дизайн/маркетинг-->
     <!--реклама-->
     <section class="brands">
       <div class="container">
-      <h2 class="brands-main-title">реклама</h2>
-    <ul class="brands-list">
-      <li class="brands-item">
-        <img class="brands-image" src="./images/texno.kpyak.webp" alt="texno kpyak" />
-        <h3 class="brands-title">Технокряк</h3>
-        <p class="brands-text">Веб-сайт</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/poster-no-vs-gs.webp" alt="poster New Orlean vs Golden Star" />
-        <h3 class="brands-title">Постер New Orlean vs Golden Star</h3>
-        <p class="brands-text">Дизайн</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/seafood.webp" alt="Seafood" />
-        <h3 class="brands-title">Ресторан Seafood</h3>
-        <p class="brands-text">Додаток</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/prime.webp" alt="prime" />
-        <h3 class="brands-title">Проєкт Prime</h3>
-        <p class="brands-text">Маркетинг</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/boxes.webp" alt="Boxes" />
-        <h3 class="brands-title">Проєкт Boxes</h3>
-        <p class="brands-text">Додаток</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/inspiration-has-no-borders.webp" alt="Inspiration has no Borders" />
-        <h3 class="brands-title">Inspiration has no Borders</h3>
-        <p class="brands-text">Веб-сайт</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/limited-edition.webp" alt="Limited Edition" />
-        <h3 class="brands-title">Видання Limited Edition</h3>
-        <p class="brands-text">Дизайн</p>
-      </li>
-      <li class="brands-item">
-        <img class="brands-image" src="./images/lab.webp" alt="LAB" />
-        <h3 class="brands-title">Проєкт LAB</h3>
-        <p class="brands-text">Маркетинг</p>
-      </li>
-      <li class="brands-item">
-      <img class="brands-image" src="./images/growing-business.webp" alt="growing business" />
-      <h3 class="brands-title">Growing Business</h3>
-      <p class="brands-text">Додаток</p>
-      </li>
-    </ul>
+        <h2 class="brands-main-title">реклама</h2>
+        <ul class="brands-list">
+          <li class="brands-item">
+            <img class="brands-image" src="./images/texno.kpyak.webp" alt="texno kpyak" />
+            <h3 class="brands-title">Технокряк</h3>
+            <p class="brands-text">Веб-сайт</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/poster-no-vs-gs.webp" alt="poster New Orlean vs Golden Star" />
+            <h3 class="brands-title">Постер New Orlean vs Golden Star</h3>
+            <p class="brands-text">Дизайн</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/seafood.webp" alt="Seafood" />
+            <h3 class="brands-title">Ресторан Seafood</h3>
+            <p class="brands-text">Додаток</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/prime.webp" alt="prime" />
+            <h3 class="brands-title">Проєкт Prime</h3>
+            <p class="brands-text">Маркетинг</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/boxes.webp" alt="Boxes" />
+            <h3 class="brands-title">Проєкт Boxes</h3>
+            <p class="brands-text">Додаток</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/inspiration-has-no-borders.webp" alt="Inspiration has no Borders" />
+            <h3 class="brands-title">Inspiration has no Borders</h3>
+            <p class="brands-text">Веб-сайт</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/limited-edition.webp" alt="Limited Edition" />
+            <h3 class="brands-title">Видання Limited Edition</h3>
+            <p class="brands-text">Дизайн</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/lab.webp" alt="LAB" />
+            <h3 class="brands-title">Проєкт LAB</h3>
+            <p class="brands-text">Маркетинг</p>
+          </li>
+          <li class="brands-item">
+            <img class="brands-image" src="./images/growing-business.webp" alt="growing business" />
+            <h3 class="brands-title">Growing Business</h3>
+            <p class="brands-text">Додаток</p>
+          </li>
+        </ul>
       </div>
-  </section>
+    </section>
   </main>
   <!--підвал-->
   <footer class="footer">
     <div class="container">
-    <a class="footer-logo" href="/">Web<span class="footer-logo-studio">Studio</span></a>
-    <address class="footer-address">
-      м. Київ, пр-т Лесі Українки, 26
-    </address>
-    <ul class="footer-contacts-list">
-      <li class="footer-contacts-list-item">
-        <a class="footer-contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-      <li class="footer-contacts-list-item">
-        <a class="footer-contacts-list-link" href="tel:+380961111111">+38 096 11 11 111</a>
-      </li>
-    </ul>
-  </div>
+      <a class="footer-logo" href="/">Web<span class="footer-logo-studio">Studio</span></a>
+      <address class="footer-address">
+        м. Київ, пр-т Лесі Українки, 26
+      </address>
+      <ul class="footer-contacts-list">
+        <li class="footer-contacts-list-item">
+          <a class="footer-contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="footer-contacts-list-item">
+          <a class="footer-contacts-list-link" href="tel:+380961111111">+38 096 11 11 111</a>
+        </li>
+      </ul>
+      <p class="footer-text">
+        <em>приєднуйтесь</em>
+      </p>
+      <ul class="footer-list-icon">
+        <li class="footer-item-icon">
+          <svg class="footer-icon">
+            <use href="./images/symbol-defs.svg#icon-instagram"></use>
+          </svg>
+        </li>
+        <li class="footer-item-icon">
+          <svg class="footer-icon">
+            <use href="./images/symbol-defs.svg#icon-twitter"></use>
+          </svg>
+        </li>
+        <li class="footer-item-icon">
+          <svg class="footer-icon">
+            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+          </svg>
+        </li>
+        <li class="footer-item-icon">
+          <svg class="footer-icon">
+            <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+          </svg>
+        </li>
+      </ul>
+    </div>
   </footer>
 </body>
 
